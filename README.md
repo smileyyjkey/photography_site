@@ -1,1 +1,0 @@
-Photography site is a website where you can find many picture . 
