@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snapshots</title>
 </head>
-<body style="background-color:black;">
+<body style="background-color:white;" align="center">
+<div>
+<ul class="nav-area">
+        
+         <li><a href="image_upload/imageupload">Photos</a></li>
+         <li><a href="chart.php">Chart</a></li>
+            <li><a href="adoutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="logout.php">Logout</a></li> 
+           
+
+        </ul>
+</div>
 <div style="width:500px; height:500px; ">
   <canvas id="myChart" style = "width:100%; height:100%;"></canvas>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -18,10 +31,10 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Nature', 'Wildlife', 'K-POP', 'Bollywood', 'Black&White' , 'LGBQT' , 'Cdrama' , 'Kdrama' , 'Turkies drama' , 'anime' , 'Cartoon'  ],
+      labels: ['Nature', 'K-POP', 'Bollywood', 'Black&White' , 'LGBQT' , 'Cdrama' , 'Kdrama'  , 'anime' , 'food' , 'drinks' ],
       datasets: [{
         label: '# of Picture',
-        data: [10, 8, 12, 9, 5, 3, 7 , 9 , 6 , 3 , 7 , 9],
+        data: [6, 4, 3, 6, 3, 9 , 4,  9  , 4 ,11 ],
         backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
       'rgba(255, 159, 64, 0.2)',

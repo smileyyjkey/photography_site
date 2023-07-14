@@ -38,7 +38,7 @@ while ($result = mysqli_fetch_assoc($query)) {
        
         <ul class="nav-area">
         
-         <li><a href="image_upload/image upload">Photos</a></li>
+         <li><a href="image_upload/imageupload">Photos</a></li>
          <li><a href="chart.php">Chart</a></li>
             <li><a href="adoutus.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>

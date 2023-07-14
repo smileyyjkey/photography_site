@@ -13,10 +13,16 @@
 			<a class="navbar-brand" href="https://sourcecodester.com" style="background: transparent;">Snapshots</a>
 		</div>
         <div id="image-container">
+		
+		  
+
+	   </ul>
   
 </div>
 
 	</nav>
+	
+	
 	<div class="col-md-3"></div>
 	<div class="col-md-6 well">
 		<h3 class="text-primary">Upload Your Images</h3>
